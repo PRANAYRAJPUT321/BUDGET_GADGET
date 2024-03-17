@@ -1,8 +1,7 @@
 // Navbar.js
 import React from 'react';
 import "./Navbar.css"
-import Footer from './Footer';
-import Signin from './Singin';
+
 
 function Navbar() {
     return (
@@ -16,8 +15,7 @@ function Navbar() {
                 <a href="#">Sign Up</a>
             </div>
         </nav>
-        <Signin/>
-      <Footer/>
+       
         </div>
     );
 }
